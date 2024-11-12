@@ -1,0 +1,22 @@
+<!-- res/layout/activity_delete_note.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Spinner to select the note to delete -->
+    <Spinner
+        android:id="@+id/notesSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to confirm deletion -->
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Note"
+        android:layout_below="@id/notesSpinner"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
